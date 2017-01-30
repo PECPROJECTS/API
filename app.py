@@ -45,6 +45,6 @@ api.add_resource(DateTime, '/time')
 
 if __name__ == '__main__':
     app.run(
-        #host = "192.168.42.154",
+        #host = "127.0.0.1",
         # port=3058,
         debug=True)
